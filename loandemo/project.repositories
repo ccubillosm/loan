@@ -11,17 +11,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/opt/jboss/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>guvnor-m2-repo</id>
+        <url>https://2886795410-8080-simba02.environments.katacoda.com/business-central/maven2/</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>https://2886795410-8080-simba02.environments.katacoda.com/business-central/maven2/</url>
-        <source>PROJECT</source>
+        <id>local</id>
+        <url>/opt/jboss/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
